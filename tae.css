@@ -1,0 +1,94 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #008000;
+}
+
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
